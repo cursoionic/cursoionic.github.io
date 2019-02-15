@@ -81,7 +81,7 @@ var LoginPage = (function () {
 LoginPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
-        selector: "page-login",template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/login/login.html"*/'<ion-content id="login">\n  <form [formGroup]="loginForm" (submit)="loginUser()" novalidate>\n    <div class="row responsive-md">\n      <div class="col col-50 col-offset-25">\n\n        <ion-item>\n          <ion-label stacked>Email</ion-label>\n          <ion-input #email formControlName="email" type="email" placeholder="Seu email" [class.invalid]="!loginForm.controls.email.valid && loginForm.controls.email.dirty"></ion-input>\n        </ion-item>\n        <ion-item class="error-message" *ngIf="!loginForm.controls.email.valid  && loginForm.controls.email.dirty">\n          <p>Por favor coloque um email válido.</p>\n        </ion-item>\n\n        <ion-item>\n          <ion-label stacked>Senha</ion-label>\n          <ion-input #password formControlName="senha" type="password" placeholder="Sua senha" [class.invalid]="!loginForm.controls.senha.valid && loginForm.controls.senha.dirty"></ion-input>\n        </ion-item>\n        <ion-item class="error-message" *ngIf="!loginForm.controls.senha.valid  && loginForm.controls.senha.dirty">\n          <p>Sua senha precisa conter pelo menos 6 caracteres</p>\n        </ion-item>\n\n        <button ion-button block type="submit">\n        Login\n      </button>\n        <button ion-button block clear (click)="goToSignup()">\n        Criar uma nova conta\n      </button>\n\n      </div>\n    </div>\n  </form>\n</ion-content>'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/login/login.html"*/
+        selector: "page-login",template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/login/login.html"*/'<ion-content id="login">\n  <form [formGroup]="loginForm" (submit)="loginUser()" novalidate>\n    <div class="row responsive-md">\n      <div class="col col-50 col-offset-25">\n\n        <ion-item>\n          <ion-label stacked>Email</ion-label>\n          <ion-input #email formControlName="email" type="email" placeholder="Seu email" [class.invalid]="!loginForm.controls.email.valid && loginForm.controls.email.dirty"></ion-input>\n        </ion-item>\n        <ion-item class="error-message" *ngIf="!loginForm.controls.email.valid  && loginForm.controls.email.dirty">\n          <p>Por favor coloque um email válido.</p>\n        </ion-item>\n\n        <ion-item>\n          <ion-label stacked>Senha</ion-label>\n          <ion-input #password formControlName="senha" type="password" placeholder="Sua senha" [class.invalid]="!loginForm.controls.senha.valid && loginForm.controls.senha.dirty"></ion-input>\n        </ion-item>\n        <ion-item class="error-message" *ngIf="!loginForm.controls.senha.valid  && loginForm.controls.senha.dirty">\n          <p>Sua senha precisa conter pelo menos 6 caracteres</p>\n        </ion-item>\n\n        <button ion-button block type="submit">\n        Login\n      </button>\n        <button ion-button block clear (click)="goToSignup()">\n        Criar uma nova conta\n      </button>\n\n      </div>\n    </div>\n  </form>\n</ion-content>'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/login/login.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* NavParams */],
@@ -127,7 +127,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Perfil" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Perfil" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -303,7 +303,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-about',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/about/about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], AboutPage);
@@ -352,7 +352,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Seja bem vindo ao curso de Ionic com o Nataniel Paiva!</h2>\n  <p>\n    Aqui é sua tela inicial.\n  </p>\n <button ion-button color="danger" (click)="logout()">Sair</button>\n</ion-content>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Seja bem vindo ao curso de Ionic com o Lucas Mantovani!</h2>\n  <p>\n    Aqui é sua tela inicial.\n  </p>\n <button ion-button color="danger" (click)="logout()">Sair</button>\n</ion-content>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_cookie__["CookieService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_cookie__["CookieService"]) === "function" && _a || Object, __WEBPACK_IMPORTED_MODULE_3__angular_http__["e" /* RequestOptions */]])
 ], HomePage);
@@ -393,7 +393,7 @@ var PerfilPage = (function () {
 }());
 PerfilPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
-        selector: 'perfil-page',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/perfil/perfil.html"*/'\n<ion-header>\n    <ion-navbar>\n      <ion-title>\n        Perfis\n      </ion-title>\n    </ion-navbar>\n  </ion-header>\n  \n  <ion-content>\n    <ion-list>\n      <ion-list-header>Perfis</ion-list-header>\n      <ion-item *ngFor="let perfil of perfis">\n        <ion-icon name="ionic" item-left></ion-icon>\n        {{perfil.nome}}\n      </ion-item>\n    </ion-list>\n  </ion-content>'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/perfil/perfil.html"*/,
+        selector: 'perfil-page',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/perfil/perfil.html"*/'\n<ion-header>\n    <ion-navbar>\n      <ion-title>\n        Perfis\n      </ion-title>\n    </ion-navbar>\n  </ion-header>\n  \n  <ion-content>\n    <ion-list>\n      <ion-list-header>Perfis</ion-list-header>\n      <ion-item *ngFor="let perfil of perfis">\n        <ion-icon name="ionic" item-left></ion-icon>\n        {{perfil.nome}}\n      </ion-item>\n    </ion-list>\n  </ion-content>'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/perfil/perfil.html"*/,
         providers: [__WEBPACK_IMPORTED_MODULE_0__providers_perfil_service_perfil_service__["a" /* PerfilServiceProvider */]]
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_0__providers_perfil_service_perfil_service__["a" /* PerfilServiceProvider */]])
@@ -619,7 +619,7 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* Nav */])
 ], ComponentInicial.prototype, "nav", void 0);
 ComponentInicial = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/app/app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* Platform */],
         __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */],
@@ -658,7 +658,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-contact',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contatos\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/ionic-front/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contatos\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/lucasmantovani/Documents/Lucas M/CURSO-IONIC/curso-ionic-front/src/pages/contact/contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], ContactPage);
